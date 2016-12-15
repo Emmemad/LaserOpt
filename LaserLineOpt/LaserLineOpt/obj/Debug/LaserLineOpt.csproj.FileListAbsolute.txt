@@ -1,0 +1,70 @@
+H:\PEIPV\LaserLineOpt\LaserLineOpt\bin\Debug\LaserLineOpt.dll
+H:\PEIPV\LaserLineOpt\LaserLineOpt\bin\Debug\LaserLineOpt.pdb
+H:\PEIPV\LaserLineOpt\LaserLineOpt\obj\Debug\LaserLineOpt.csprojResolveAssemblyReference.cache
+H:\PEIPV\LaserLineOpt\LaserLineOpt\obj\Debug\LaserLineOpt.dll
+H:\PEIPV\LaserLineOpt\LaserLineOpt\obj\Debug\LaserLineOpt.pdb
+C:\Users\Бонч\Desktop\Патрикеев LaserOpt\LaserLineOpt\LaserLineOpt\bin\Debug\LaserLineOpt.dll
+C:\Users\Бонч\Desktop\Патрикеев LaserOpt\LaserLineOpt\LaserLineOpt\bin\Debug\LaserLineOpt.pdb
+C:\Users\Бонч\Desktop\Патрикеев LaserOpt\LaserLineOpt\LaserLineOpt\obj\Debug\LaserLineOpt.csprojResolveAssemblyReference.cache
+C:\Users\Бонч\Desktop\Патрикеев LaserOpt\LaserLineOpt\LaserLineOpt\obj\Debug\LaserLineOpt.dll
+C:\Users\Бонч\Desktop\Патрикеев LaserOpt\LaserLineOpt\LaserLineOpt\obj\Debug\LaserLineOpt.pdb
+C:\Users\Бонч\Desktop\LaserOpt-master\LaserLineOpt\LaserLineOpt\bin\Debug\LaserLineOpt.dll
+C:\Users\Бонч\Desktop\LaserOpt-master\LaserLineOpt\LaserLineOpt\bin\Debug\LaserLineOpt.pdb
+C:\Users\Бонч\Desktop\LaserOpt-master\LaserLineOpt\LaserLineOpt\obj\Debug\LaserLineOpt.csprojResolveAssemblyReference.cache
+C:\Users\Бонч\Desktop\LaserOpt-master\LaserLineOpt\LaserLineOpt\obj\Debug\LaserLineOpt.dll
+C:\Users\Бонч\Desktop\LaserOpt-master\LaserLineOpt\LaserLineOpt\obj\Debug\LaserLineOpt.pdb
+C:\Users\Emmemad\Desktop\LaserOpt-master-master\LaserLineOpt\LaserLineOpt\bin\Debug\LaserLineOpt.dll
+C:\Users\Emmemad\Desktop\LaserOpt-master-master\LaserLineOpt\LaserLineOpt\bin\Debug\LaserLineOpt.pdb
+C:\Users\Emmemad\Desktop\LaserOpt-master-master\LaserLineOpt\LaserLineOpt\obj\Debug\LaserLineOpt.csprojResolveAssemblyReference.cache
+C:\Users\Emmemad\Desktop\LaserOpt-master-master\LaserLineOpt\LaserLineOpt\obj\Debug\LaserLineOpt.dll
+C:\Users\Emmemad\Desktop\LaserOpt-master-master\LaserLineOpt\LaserLineOpt\obj\Debug\LaserLineOpt.pdb
+C:\Users\Emmemad\Desktop\LaserOpt-current\LaserLineOpt\LaserLineOpt\bin\Debug\LaserLineOpt.dll
+C:\Users\Emmemad\Desktop\LaserOpt-current\LaserLineOpt\LaserLineOpt\bin\Debug\LaserLineOpt.pdb
+C:\Users\Emmemad\Desktop\LaserOpt-current\LaserLineOpt\LaserLineOpt\obj\Debug\LaserLineOpt.csprojResolveAssemblyReference.cache
+C:\Users\Emmemad\Desktop\LaserOpt-current\LaserLineOpt\LaserLineOpt\obj\Debug\LaserLineOpt.dll
+C:\Users\Emmemad\Desktop\LaserOpt-current\LaserLineOpt\LaserLineOpt\obj\Debug\LaserLineOpt.pdb
+C:\Users\Бонч\Desktop\Факультатив\LaserOpt-current\LaserLineOpt\LaserLineOpt\bin\Debug\LaserLineOpt.dll
+C:\Users\Бонч\Desktop\Факультатив\LaserOpt-current\LaserLineOpt\LaserLineOpt\bin\Debug\LaserLineOpt.pdb
+C:\Users\Бонч\Desktop\Факультатив\LaserOpt-current\LaserLineOpt\LaserLineOpt\obj\Debug\LaserLineOpt.csprojResolveAssemblyReference.cache
+C:\Users\Бонч\Desktop\Факультатив\LaserOpt-current\LaserLineOpt\LaserLineOpt\obj\Debug\LaserLineOpt.dll
+C:\Users\Бонч\Desktop\Факультатив\LaserOpt-current\LaserLineOpt\LaserLineOpt\obj\Debug\LaserLineOpt.pdb
+C:\Users\Бонч\Desktop\LaserOpt-current 24.10.2016\LaserLineOpt\LaserLineOpt\obj\Debug\LaserLineOpt.csprojResolveAssemblyReference.cache
+C:\Users\Бонч\Desktop\LaserOpt-current 24.10.2016\LaserLineOpt\LaserLineOpt\obj\Debug\LaserLineOpt.dll
+C:\Users\Бонч\Desktop\LaserOpt-current 24.10.2016\LaserLineOpt\LaserLineOpt\obj\Debug\LaserLineOpt.pdb
+C:\Users\Бонч\Desktop\LaserOpt-current 24.10.2016\LaserLineOpt\LaserLineOpt\bin\Debug\LaserLineOpt.dll
+C:\Users\Бонч\Desktop\LaserOpt-current 24.10.2016\LaserLineOpt\LaserLineOpt\bin\Debug\LaserLineOpt.pdb
+C:\Users\Бонч\Desktop\LaserOpt-current 3.11.2016\LaserLineOpt\LaserLineOpt\bin\Debug\LaserLineOpt.dll
+C:\Users\Бонч\Desktop\LaserOpt-current 3.11.2016\LaserLineOpt\LaserLineOpt\bin\Debug\LaserLineOpt.pdb
+C:\Users\Бонч\Desktop\LaserOpt-current 3.11.2016\LaserLineOpt\LaserLineOpt\obj\Debug\LaserLineOpt.csprojResolveAssemblyReference.cache
+C:\Users\Бонч\Desktop\LaserOpt-current 3.11.2016\LaserLineOpt\LaserLineOpt\obj\Debug\LaserLineOpt.dll
+C:\Users\Бонч\Desktop\LaserOpt-current 3.11.2016\LaserLineOpt\LaserLineOpt\obj\Debug\LaserLineOpt.pdb
+C:\Users\Emmemad\Desktop\LaserOpt-current 7.11.2016\LaserLineOpt\LaserLineOpt\bin\Debug\LaserLineOpt.dll
+C:\Users\Emmemad\Desktop\LaserOpt-current 7.11.2016\LaserLineOpt\LaserLineOpt\bin\Debug\LaserLineOpt.pdb
+C:\Users\Emmemad\Desktop\LaserOpt-current 7.11.2016\LaserLineOpt\LaserLineOpt\obj\Debug\LaserLineOpt.csprojResolveAssemblyReference.cache
+C:\Users\Emmemad\Desktop\LaserOpt-current 7.11.2016\LaserLineOpt\LaserLineOpt\obj\Debug\LaserLineOpt.dll
+C:\Users\Emmemad\Desktop\LaserOpt-current 7.11.2016\LaserLineOpt\LaserLineOpt\obj\Debug\LaserLineOpt.pdb
+C:\Users\Бонч\Desktop\LaserOpt-current 7.11.2016 - modified\LaserLineOpt\LaserLineOpt\bin\Debug\LaserLineOpt.dll
+C:\Users\Бонч\Desktop\LaserOpt-current 7.11.2016 - modified\LaserLineOpt\LaserLineOpt\bin\Debug\LaserLineOpt.pdb
+C:\Users\Бонч\Desktop\LaserOpt-current 7.11.2016 - modified\LaserLineOpt\LaserLineOpt\obj\Debug\LaserLineOpt.csprojResolveAssemblyReference.cache
+C:\Users\Бонч\Desktop\LaserOpt-current 7.11.2016 - modified\LaserLineOpt\LaserLineOpt\obj\Debug\LaserLineOpt.dll
+C:\Users\Бонч\Desktop\LaserOpt-current 7.11.2016 - modified\LaserLineOpt\LaserLineOpt\obj\Debug\LaserLineOpt.pdb
+C:\Users\Emmemad\Desktop\LaserOpt-current 17.11.2016\LaserLineOpt\LaserLineOpt\bin\Debug\LaserLineOpt.dll
+C:\Users\Emmemad\Desktop\LaserOpt-current 17.11.2016\LaserLineOpt\LaserLineOpt\bin\Debug\LaserLineOpt.pdb
+C:\Users\Emmemad\Desktop\LaserOpt-current 17.11.2016\LaserLineOpt\LaserLineOpt\obj\Debug\LaserLineOpt.csprojResolveAssemblyReference.cache
+C:\Users\Emmemad\Desktop\LaserOpt-current 17.11.2016\LaserLineOpt\LaserLineOpt\obj\Debug\LaserLineOpt.dll
+C:\Users\Emmemad\Desktop\LaserOpt-current 17.11.2016\LaserLineOpt\LaserLineOpt\obj\Debug\LaserLineOpt.pdb
+C:\Users\Бонч\Desktop\LaserOpt-current 17.11.2016 - modified\LaserLineOpt\LaserLineOpt\bin\Debug\LaserLineOpt.dll
+C:\Users\Бонч\Desktop\LaserOpt-current 17.11.2016 - modified\LaserLineOpt\LaserLineOpt\bin\Debug\LaserLineOpt.pdb
+C:\Users\Бонч\Desktop\LaserOpt-current 17.11.2016 - modified\LaserLineOpt\LaserLineOpt\obj\Debug\LaserLineOpt.csprojResolveAssemblyReference.cache
+C:\Users\Бонч\Desktop\LaserOpt-current 17.11.2016 - modified\LaserLineOpt\LaserLineOpt\obj\Debug\LaserLineOpt.dll
+C:\Users\Бонч\Desktop\LaserOpt-current 17.11.2016 - modified\LaserLineOpt\LaserLineOpt\obj\Debug\LaserLineOpt.pdb
+C:\Users\Бонч\Desktop\LaserOpt-current 21.11.2016n\LaserLineOpt\LaserLineOpt\bin\Debug\LaserLineOpt.dll
+C:\Users\Бонч\Desktop\LaserOpt-current 21.11.2016n\LaserLineOpt\LaserLineOpt\bin\Debug\LaserLineOpt.pdb
+C:\Users\Бонч\Desktop\LaserOpt-current 21.11.2016n\LaserLineOpt\LaserLineOpt\obj\Debug\LaserLineOpt.csprojResolveAssemblyReference.cache
+C:\Users\Бонч\Desktop\LaserOpt-current 21.11.2016n\LaserLineOpt\LaserLineOpt\obj\Debug\LaserLineOpt.dll
+C:\Users\Бонч\Desktop\LaserOpt-current 21.11.2016n\LaserLineOpt\LaserLineOpt\obj\Debug\LaserLineOpt.pdb
+C:\Users\Бонч\Desktop\LaserOpt-current 01.12.2016n\LaserLineOpt\LaserLineOpt\bin\Debug\LaserLineOpt.dll
+C:\Users\Бонч\Desktop\LaserOpt-current 01.12.2016n\LaserLineOpt\LaserLineOpt\bin\Debug\LaserLineOpt.pdb
+C:\Users\Бонч\Desktop\LaserOpt-current 01.12.2016n\LaserLineOpt\LaserLineOpt\obj\Debug\LaserLineOpt.csprojResolveAssemblyReference.cache
+C:\Users\Бонч\Desktop\LaserOpt-current 01.12.2016n\LaserLineOpt\LaserLineOpt\obj\Debug\LaserLineOpt.dll
+C:\Users\Бонч\Desktop\LaserOpt-current 01.12.2016n\LaserLineOpt\LaserLineOpt\obj\Debug\LaserLineOpt.pdb

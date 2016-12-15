@@ -1,0 +1,113 @@
+H:\PEIPV\LaserOptTest\LaserOptTest\bin\Debug\LaserOptTest.exe.config
+H:\PEIPV\LaserOptTest\LaserOptTest\bin\Debug\LaserOptTest.exe
+H:\PEIPV\LaserOptTest\LaserOptTest\bin\Debug\LaserOptTest.pdb
+H:\PEIPV\LaserOptTest\LaserOptTest\obj\Debug\LaserOptTest.csprojResolveAssemblyReference.cache
+H:\PEIPV\LaserOptTest\LaserOptTest\obj\Debug\LaserOptTest.exe
+H:\PEIPV\LaserOptTest\LaserOptTest\obj\Debug\LaserOptTest.pdb
+C:\Users\Бонч\Desktop\Патрикеев LaserOpt\LaserOptTest\LaserOptTest\bin\Debug\LaserOptTest.exe.config
+C:\Users\Бонч\Desktop\Патрикеев LaserOpt\LaserOptTest\LaserOptTest\obj\Debug\LaserOptTest.exe
+C:\Users\Бонч\Desktop\Патрикеев LaserOpt\LaserOptTest\LaserOptTest\obj\Debug\LaserOptTest.pdb
+C:\Users\Бонч\Desktop\Патрикеев LaserOpt\LaserOptTest\LaserOptTest\bin\Debug\LaserOptTest.exe
+C:\Users\Бонч\Desktop\Патрикеев LaserOpt\LaserOptTest\LaserOptTest\bin\Debug\LaserOptTest.pdb
+C:\Users\Бонч\Desktop\Патрикеев LaserOpt\LaserOptTest\LaserOptTest\bin\Debug\LaserLineOpt.dll
+C:\Users\Бонч\Desktop\Патрикеев LaserOpt\LaserOptTest\LaserOptTest\bin\Debug\LaserLineOpt.pdb
+C:\Users\Бонч\Desktop\Патрикеев LaserOpt\LaserOptTest\LaserOptTest\obj\Debug\LaserOptTest.csprojResolveAssemblyReference.cache
+C:\Users\Бонч\Desktop\LaserOpt-master\LaserOptTest\LaserOptTest\bin\Debug\LaserOptTest.exe.config
+C:\Users\Бонч\Desktop\LaserOpt-master\LaserOptTest\LaserOptTest\obj\Debug\LaserOptTest.exe
+C:\Users\Бонч\Desktop\LaserOpt-master\LaserOptTest\LaserOptTest\obj\Debug\LaserOptTest.pdb
+C:\Users\Бонч\Desktop\LaserOpt-master\LaserOptTest\LaserOptTest\bin\Debug\LaserOptTest.exe
+C:\Users\Бонч\Desktop\LaserOpt-master\LaserOptTest\LaserOptTest\bin\Debug\LaserOptTest.pdb
+C:\Users\Бонч\Desktop\LaserOpt-master\LaserOptTest\LaserOptTest\bin\Debug\LaserLineOpt.dll
+C:\Users\Бонч\Desktop\LaserOpt-master\LaserOptTest\LaserOptTest\bin\Debug\LaserLineOpt.pdb
+C:\Users\Бонч\Desktop\LaserOpt-master\LaserOptTest\LaserOptTest\obj\Debug\LaserOptTest.csprojResolveAssemblyReference.cache
+C:\Users\Emmemad\Desktop\LaserOpt-master-master\LaserOptTest\LaserOptTest\bin\Debug\LaserOptTest.exe.config
+C:\Users\Emmemad\Desktop\LaserOpt-master-master\LaserOptTest\LaserOptTest\obj\Debug\LaserOptTest.exe
+C:\Users\Emmemad\Desktop\LaserOpt-master-master\LaserOptTest\LaserOptTest\obj\Debug\LaserOptTest.pdb
+C:\Users\Emmemad\Desktop\LaserOpt-master-master\LaserOptTest\LaserOptTest\bin\Debug\LaserOptTest.exe
+C:\Users\Emmemad\Desktop\LaserOpt-master-master\LaserOptTest\LaserOptTest\bin\Debug\LaserOptTest.pdb
+C:\Users\Emmemad\Desktop\LaserOpt-master-master\LaserOptTest\LaserOptTest\bin\Debug\LaserLineOpt.dll
+C:\Users\Emmemad\Desktop\LaserOpt-master-master\LaserOptTest\LaserOptTest\bin\Debug\LaserLineOpt.pdb
+C:\Users\Emmemad\Desktop\LaserOpt-master-master\LaserOptTest\LaserOptTest\obj\Debug\LaserOptTest.csprojResolveAssemblyReference.cache
+C:\Users\Emmemad\Desktop\LaserOpt-current\LaserOptTest\LaserOptTest\bin\Debug\LaserOptTest.exe.config
+C:\Users\Emmemad\Desktop\LaserOpt-current\LaserOptTest\LaserOptTest\obj\Debug\LaserOptTest.exe
+C:\Users\Emmemad\Desktop\LaserOpt-current\LaserOptTest\LaserOptTest\obj\Debug\LaserOptTest.pdb
+C:\Users\Emmemad\Desktop\LaserOpt-current\LaserOptTest\LaserOptTest\bin\Debug\LaserOptTest.exe
+C:\Users\Emmemad\Desktop\LaserOpt-current\LaserOptTest\LaserOptTest\bin\Debug\LaserOptTest.pdb
+C:\Users\Emmemad\Desktop\LaserOpt-current\LaserOptTest\LaserOptTest\bin\Debug\LaserLineOpt.dll
+C:\Users\Emmemad\Desktop\LaserOpt-current\LaserOptTest\LaserOptTest\bin\Debug\LaserLineOpt.pdb
+C:\Users\Emmemad\Desktop\LaserOpt-current\LaserOptTest\LaserOptTest\obj\Debug\LaserOptTest.csprojResolveAssemblyReference.cache
+C:\Users\Бонч\Desktop\Факультатив\LaserOpt-current\LaserOptTest\LaserOptTest\bin\Debug\LaserOptTest.exe.config
+C:\Users\Бонч\Desktop\Факультатив\LaserOpt-current\LaserOptTest\LaserOptTest\obj\Debug\LaserOptTest.exe
+C:\Users\Бонч\Desktop\Факультатив\LaserOpt-current\LaserOptTest\LaserOptTest\obj\Debug\LaserOptTest.pdb
+C:\Users\Бонч\Desktop\Факультатив\LaserOpt-current\LaserOptTest\LaserOptTest\bin\Debug\LaserOptTest.exe
+C:\Users\Бонч\Desktop\Факультатив\LaserOpt-current\LaserOptTest\LaserOptTest\bin\Debug\LaserOptTest.pdb
+C:\Users\Бонч\Desktop\Факультатив\LaserOpt-current\LaserOptTest\LaserOptTest\bin\Debug\LaserLineOpt.dll
+C:\Users\Бонч\Desktop\Факультатив\LaserOpt-current\LaserOptTest\LaserOptTest\bin\Debug\LaserLineOpt.pdb
+C:\Users\Бонч\Desktop\Факультатив\LaserOpt-current\LaserOptTest\LaserOptTest\obj\Debug\LaserOptTest.csprojResolveAssemblyReference.cache
+I:\Факультатив\LaserOpt-current 24.10.2016\LaserOptTest\LaserOptTest\bin\Debug\LaserOptTest.exe.config
+I:\Факультатив\LaserOpt-current 24.10.2016\LaserOptTest\LaserOptTest\obj\Debug\LaserOptTest.exe
+I:\Факультатив\LaserOpt-current 24.10.2016\LaserOptTest\LaserOptTest\obj\Debug\LaserOptTest.pdb
+C:\Users\Бонч\Desktop\LaserOpt-current 24.10.2016\LaserOptTest\LaserOptTest\bin\Debug\LaserOptTest.exe.config
+C:\Users\Бонч\Desktop\LaserOpt-current 24.10.2016\LaserOptTest\LaserOptTest\obj\Debug\LaserOptTest.exe
+C:\Users\Бонч\Desktop\LaserOpt-current 24.10.2016\LaserOptTest\LaserOptTest\obj\Debug\LaserOptTest.pdb
+C:\Users\Бонч\Desktop\LaserOpt-current 24.10.2016\LaserOptTest\LaserOptTest\bin\Debug\LaserOptTest.exe
+C:\Users\Бонч\Desktop\LaserOpt-current 24.10.2016\LaserOptTest\LaserOptTest\bin\Debug\LaserOptTest.pdb
+C:\Users\Бонч\Desktop\LaserOpt-current 24.10.2016\LaserOptTest\LaserOptTest\bin\Debug\LaserLineOpt.dll
+C:\Users\Бонч\Desktop\LaserOpt-current 24.10.2016\LaserOptTest\LaserOptTest\bin\Debug\LaserLineOpt.pdb
+C:\Users\Бонч\Desktop\LaserOpt-current 24.10.2016\LaserOptTest\LaserOptTest\obj\Debug\LaserOptTest.csprojResolveAssemblyReference.cache
+C:\Users\Бонч\Desktop\LaserOpt-current 3.11.2016\LaserOptTest\LaserOptTest\bin\Debug\LaserOptTest.exe.config
+C:\Users\Бонч\Desktop\LaserOpt-current 3.11.2016\LaserOptTest\LaserOptTest\obj\Debug\LaserOptTest.exe
+C:\Users\Бонч\Desktop\LaserOpt-current 3.11.2016\LaserOptTest\LaserOptTest\obj\Debug\LaserOptTest.pdb
+C:\Users\Бонч\Desktop\LaserOpt-current 3.11.2016\LaserOptTest\LaserOptTest\bin\Debug\LaserOptTest.exe
+C:\Users\Бонч\Desktop\LaserOpt-current 3.11.2016\LaserOptTest\LaserOptTest\bin\Debug\LaserOptTest.pdb
+C:\Users\Бонч\Desktop\LaserOpt-current 3.11.2016\LaserOptTest\LaserOptTest\bin\Debug\LaserLineOpt.dll
+C:\Users\Бонч\Desktop\LaserOpt-current 3.11.2016\LaserOptTest\LaserOptTest\bin\Debug\LaserLineOpt.pdb
+C:\Users\Бонч\Desktop\LaserOpt-current 3.11.2016\LaserOptTest\LaserOptTest\obj\Debug\LaserOptTest.csprojResolveAssemblyReference.cache
+C:\Users\Emmemad\Desktop\LaserOpt-current 7.11.2016\LaserOptTest\LaserOptTest\bin\Debug\LaserOptTest.exe.config
+C:\Users\Emmemad\Desktop\LaserOpt-current 7.11.2016\LaserOptTest\LaserOptTest\obj\Debug\LaserOptTest.exe
+C:\Users\Emmemad\Desktop\LaserOpt-current 7.11.2016\LaserOptTest\LaserOptTest\obj\Debug\LaserOptTest.pdb
+C:\Users\Emmemad\Desktop\LaserOpt-current 7.11.2016\LaserOptTest\LaserOptTest\bin\Debug\LaserOptTest.exe
+C:\Users\Emmemad\Desktop\LaserOpt-current 7.11.2016\LaserOptTest\LaserOptTest\bin\Debug\LaserOptTest.pdb
+C:\Users\Emmemad\Desktop\LaserOpt-current 7.11.2016\LaserOptTest\LaserOptTest\bin\Debug\LaserLineOpt.dll
+C:\Users\Emmemad\Desktop\LaserOpt-current 7.11.2016\LaserOptTest\LaserOptTest\bin\Debug\LaserLineOpt.pdb
+C:\Users\Emmemad\Desktop\LaserOpt-current 7.11.2016\LaserOptTest\LaserOptTest\obj\Debug\LaserOptTest.csprojResolveAssemblyReference.cache
+C:\Users\Бонч\Desktop\LaserOpt-current 7.11.2016 - modified\LaserOptTest\LaserOptTest\bin\Debug\LaserOptTest.exe.config
+C:\Users\Бонч\Desktop\LaserOpt-current 7.11.2016 - modified\LaserOptTest\LaserOptTest\obj\Debug\LaserOptTest.exe
+C:\Users\Бонч\Desktop\LaserOpt-current 7.11.2016 - modified\LaserOptTest\LaserOptTest\obj\Debug\LaserOptTest.pdb
+C:\Users\Бонч\Desktop\LaserOpt-current 7.11.2016 - modified\LaserOptTest\LaserOptTest\bin\Debug\LaserOptTest.exe
+C:\Users\Бонч\Desktop\LaserOpt-current 7.11.2016 - modified\LaserOptTest\LaserOptTest\bin\Debug\LaserOptTest.pdb
+C:\Users\Бонч\Desktop\LaserOpt-current 7.11.2016 - modified\LaserOptTest\LaserOptTest\bin\Debug\LaserLineOpt.dll
+C:\Users\Бонч\Desktop\LaserOpt-current 7.11.2016 - modified\LaserOptTest\LaserOptTest\bin\Debug\LaserLineOpt.pdb
+C:\Users\Бонч\Desktop\LaserOpt-current 7.11.2016 - modified\LaserOptTest\LaserOptTest\obj\Debug\LaserOptTest.csprojResolveAssemblyReference.cache
+C:\Users\Emmemad\Desktop\LaserOpt-current 17.11.2016\LaserOptTest\LaserOptTest\bin\Debug\LaserOptTest.exe.config
+C:\Users\Emmemad\Desktop\LaserOpt-current 17.11.2016\LaserOptTest\LaserOptTest\obj\Debug\LaserOptTest.exe
+C:\Users\Emmemad\Desktop\LaserOpt-current 17.11.2016\LaserOptTest\LaserOptTest\obj\Debug\LaserOptTest.pdb
+C:\Users\Emmemad\Desktop\LaserOpt-current 17.11.2016\LaserOptTest\LaserOptTest\bin\Debug\LaserOptTest.exe
+C:\Users\Emmemad\Desktop\LaserOpt-current 17.11.2016\LaserOptTest\LaserOptTest\bin\Debug\LaserOptTest.pdb
+C:\Users\Emmemad\Desktop\LaserOpt-current 17.11.2016\LaserOptTest\LaserOptTest\bin\Debug\LaserLineOpt.dll
+C:\Users\Emmemad\Desktop\LaserOpt-current 17.11.2016\LaserOptTest\LaserOptTest\bin\Debug\LaserLineOpt.pdb
+C:\Users\Emmemad\Desktop\LaserOpt-current 17.11.2016\LaserOptTest\LaserOptTest\obj\Debug\LaserOptTest.csprojResolveAssemblyReference.cache
+C:\Users\Бонч\Desktop\LaserOpt-current 17.11.2016 - modified\LaserOptTest\LaserOptTest\bin\Debug\LaserOptTest.exe.config
+C:\Users\Бонч\Desktop\LaserOpt-current 17.11.2016 - modified\LaserOptTest\LaserOptTest\obj\Debug\LaserOptTest.exe
+C:\Users\Бонч\Desktop\LaserOpt-current 17.11.2016 - modified\LaserOptTest\LaserOptTest\obj\Debug\LaserOptTest.pdb
+C:\Users\Бонч\Desktop\LaserOpt-current 17.11.2016 - modified\LaserOptTest\LaserOptTest\bin\Debug\LaserOptTest.exe
+C:\Users\Бонч\Desktop\LaserOpt-current 17.11.2016 - modified\LaserOptTest\LaserOptTest\bin\Debug\LaserOptTest.pdb
+C:\Users\Бонч\Desktop\LaserOpt-current 17.11.2016 - modified\LaserOptTest\LaserOptTest\bin\Debug\LaserLineOpt.dll
+C:\Users\Бонч\Desktop\LaserOpt-current 17.11.2016 - modified\LaserOptTest\LaserOptTest\bin\Debug\LaserLineOpt.pdb
+C:\Users\Бонч\Desktop\LaserOpt-current 17.11.2016 - modified\LaserOptTest\LaserOptTest\obj\Debug\LaserOptTest.csprojResolveAssemblyReference.cache
+C:\Users\Бонч\Desktop\LaserOpt-current 21.11.2016n\LaserOptTest\LaserOptTest\bin\Debug\LaserOptTest.exe.config
+C:\Users\Бонч\Desktop\LaserOpt-current 21.11.2016n\LaserOptTest\LaserOptTest\obj\Debug\LaserOptTest.exe
+C:\Users\Бонч\Desktop\LaserOpt-current 21.11.2016n\LaserOptTest\LaserOptTest\obj\Debug\LaserOptTest.pdb
+C:\Users\Бонч\Desktop\LaserOpt-current 21.11.2016n\LaserOptTest\LaserOptTest\bin\Debug\LaserOptTest.exe
+C:\Users\Бонч\Desktop\LaserOpt-current 21.11.2016n\LaserOptTest\LaserOptTest\bin\Debug\LaserOptTest.pdb
+C:\Users\Бонч\Desktop\LaserOpt-current 21.11.2016n\LaserOptTest\LaserOptTest\bin\Debug\LaserLineOpt.dll
+C:\Users\Бонч\Desktop\LaserOpt-current 21.11.2016n\LaserOptTest\LaserOptTest\bin\Debug\LaserLineOpt.pdb
+C:\Users\Бонч\Desktop\LaserOpt-current 21.11.2016n\LaserOptTest\LaserOptTest\obj\Debug\LaserOptTest.csprojResolveAssemblyReference.cache
+C:\Users\Бонч\Desktop\LaserOpt-current 01.12.2016n\LaserOptTest\LaserOptTest\bin\Debug\LaserOptTest.exe.config
+C:\Users\Бонч\Desktop\LaserOpt-current 01.12.2016n\LaserOptTest\LaserOptTest\obj\Debug\LaserOptTest.exe
+C:\Users\Бонч\Desktop\LaserOpt-current 01.12.2016n\LaserOptTest\LaserOptTest\obj\Debug\LaserOptTest.pdb
+C:\Users\Бонч\Desktop\LaserOpt-current 01.12.2016n\LaserOptTest\LaserOptTest\bin\Debug\LaserOptTest.exe
+C:\Users\Бонч\Desktop\LaserOpt-current 01.12.2016n\LaserOptTest\LaserOptTest\bin\Debug\LaserOptTest.pdb
+C:\Users\Бонч\Desktop\LaserOpt-current 01.12.2016n\LaserOptTest\LaserOptTest\bin\Debug\LaserLineOpt.dll
+C:\Users\Бонч\Desktop\LaserOpt-current 01.12.2016n\LaserOptTest\LaserOptTest\bin\Debug\LaserLineOpt.pdb
+C:\Users\Бонч\Desktop\LaserOpt-current 01.12.2016n\LaserOptTest\LaserOptTest\obj\Debug\LaserOptTest.csprojResolveAssemblyReference.cache

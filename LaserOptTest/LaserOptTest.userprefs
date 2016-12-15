@@ -1,0 +1,12 @@
+﻿<Properties StartupItem="LaserOptTest/LaserOptTest.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="LaserOptTest/Program.cs">
+    <Files>
+      <File FileName="LaserOptTest/Program.cs" Line="28" Column="35" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
