@@ -10,7 +10,6 @@ namespace LaserLineOpt
     {
         static Random rng = new Random();
 
-
         public static Plate OrderedCrossover(Plate plate1, Plate plate2)
         {
 
@@ -94,8 +93,6 @@ namespace LaserLineOpt
 
             return new Plate(segments);
         }
-
-
 
     }
 }

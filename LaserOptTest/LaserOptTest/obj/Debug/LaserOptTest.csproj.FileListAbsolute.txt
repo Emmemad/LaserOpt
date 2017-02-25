@@ -111,3 +111,6 @@ C:\Users\Бонч\Desktop\LaserOpt-current 01.12.2016n\LaserOptTest\LaserOptTest
 C:\Users\Бонч\Desktop\LaserOpt-current 01.12.2016n\LaserOptTest\LaserOptTest\bin\Debug\LaserLineOpt.dll
 C:\Users\Бонч\Desktop\LaserOpt-current 01.12.2016n\LaserOptTest\LaserOptTest\bin\Debug\LaserLineOpt.pdb
 C:\Users\Бонч\Desktop\LaserOpt-current 01.12.2016n\LaserOptTest\LaserOptTest\obj\Debug\LaserOptTest.csprojResolveAssemblyReference.cache
+C:\Users\Бонч\GitProjects\LaserOpt\LaserOptTest\LaserOptTest\bin\Debug\LaserOptTest.exe.config
+C:\Users\Бонч\GitProjects\LaserOpt\LaserOptTest\LaserOptTest\obj\Debug\LaserOptTest.exe
+C:\Users\Бонч\GitProjects\LaserOpt\LaserOptTest\LaserOptTest\obj\Debug\LaserOptTest.pdb

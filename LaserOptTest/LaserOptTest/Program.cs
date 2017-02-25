@@ -17,13 +17,9 @@ namespace LaserOptTest
 
             Plate targetPlate = new Plate();
 
-            int j = 0;
-
             for(int i = 0; i < NumberOfTestSegments; i++)
             {
-                targetPlate.AddSegment(new Segment(i, i+j, i+j, i+1+j, i+1+j));
-
-                //j += 1;
+                targetPlate.AddSegment(new Segment(i, i, i, i+1, i+1));
             }
 
             tspSolver.sizeOfPopulation = 4000;  //4000

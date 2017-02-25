@@ -38,7 +38,7 @@ namespace LaserLineOpt
                 Mutate();
                 Plate bestPlate = GetBestPlate();
 
-                if ((i % 1000) == 0) {
+                if ((i % 1000) == 0) { // Вынести в отдельный модуль вывод на экран
 					Console.WriteLine ("Iteration: " + i);
 
 					if (logPlate) {
@@ -52,30 +52,27 @@ namespace LaserLineOpt
             }
         }
 
-        public Plate GetBestPlate()
+        public Plate GetBestPlate() // Возвращает особь с наибольшим значением fitness-функции
         {
-            double fitnessSum = 0, fitnessMax = 0;
+            double fitnessMax = 0;
             int maxIndex = 0;
             for (int i = 0; i < Plates.Count; i++)
             {
                 if (Plates[i].FitnessValue > fitnessMax)
                 {
-                    fitnessSum += Plates[i].FitnessValue;
                     fitnessMax = Plates[i].FitnessValue;
                     maxIndex = i;
                 }
             }
-
-            //int fitnessAvg = (fitnessSum / Plates.Count);
             return Plates[maxIndex];
         }
 
-        public void SetTargetPlate(Plate plate)
+        public void SetTargetPlate(Plate plate) // Устанавливает "идеальную" особь
         {
             TargetPlate = plate;
         }
 
-        public void GenerateFirstPopulation()
+        public void GenerateFirstPopulation() // Создание новых особей путём перемешивания сегментов и их направлений
         {
             for(int i = 0; i < sizeOfPopulation; i++)
             {
@@ -88,15 +85,15 @@ namespace LaserLineOpt
 
         void PerformSelection()
         {
-            RouletteSelection();      // (!) Каждое новое поколение не содержит "родителей"
+            RouletteSelection();
 
             //SortPlatesByFitness();  // Отбор усечением: сортировка
             //LeaveBestOfPlates();    // Отбор усечением: усечение популяции
 
-            //ProduceNewPlates();     // Производство потомков для заполнения популяции
+            //ProduceNewPlates();     // Отбор усечением: производство потомков для заполнения популяции
         }
 
-        void Mutate()
+        void Mutate() // Мутация
         {
             for (int i = 0; i < Plates.Count; i++)
             {
@@ -105,16 +102,17 @@ namespace LaserLineOpt
         }
 
 
-        void SortPlatesByFitness()
+        void SortPlatesByFitness() // Сортировка главного массива особей по возрастанию значения фитнесс-функции
         {
             Plates = Plates.OrderBy(o => Fitness(o)).ToList();
         }
 
-        void SortPlatesByFitness(List<Plate> list)
+        void SortPlatesByFitness(List<Plate> list) // Сортировка переданного массива особей по возрастанию значения фитнесс-функции
         {
             list = list.OrderBy(o => Fitness(o)).ToList();
         }
 
+        /* Функции отбора усечением */
 
         void LeaveBestOfPlates()
         {
@@ -138,7 +136,7 @@ namespace LaserLineOpt
 
         void ProduceNewPlates()
         {
-            List<Plate> NewPopulation = new List<Plate>();      //Промежуточная популяция
+            List<Plate> NewPopulation = new List<Plate>();
             NewPopulation.AddRange(Plates);  
 
             while (NewPopulation.Count < sizeOfPopulation)
@@ -171,6 +169,8 @@ namespace LaserLineOpt
             Plates = NewPopulation;
         }
 
+        /* Отбор рулеткой */
+
         void RouletteSelection()
         {
             List<Plate> selectedPlates = new List<Plate>();
@@ -195,6 +195,8 @@ namespace LaserLineOpt
             Plates = selectedPlates;
 
         }
+
+        /*Кроссинговер*/
 
         static List<Plate> Crossover(Plate plate1, Plate plate2)
         {
