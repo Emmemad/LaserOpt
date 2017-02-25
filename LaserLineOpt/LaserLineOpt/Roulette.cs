@@ -32,7 +32,6 @@ namespace LaserLineOpt
             fitnessAverage = fitnessSum / plates.Count;
             */
 
-
             fitnessSum = plates[0].FitnessValue;
             platesCoords.Add(Tuple.Create(0.0, plates[0].FitnessValue));
             for (int i = 1; i < plates.Count; i++)
@@ -47,12 +46,14 @@ namespace LaserLineOpt
         public List<Plate> GetPlates(int num = 1)
         {
             List<Plate> selectedPlates = new List<Plate>();
+            double chosenFitness = 0;
+            int guessedPlateID = 0;
 
             for (int i = 0; i < num; i++)
             {
 
-                double chosenFitness = fitnessSum * rng.NextDouble();
-                int guessedPlateID = (int)(chosenFitness / fitnessAverage);
+                chosenFitness = fitnessSum * rng.NextDouble();  // Вылет с fitnessSum = infifnity при достижении идеального результата
+                guessedPlateID = (int)(chosenFitness / fitnessAverage);
 
                 if ((chosenFitness >= platesCoords[guessedPlateID].Item1) && (chosenFitness <= platesCoords[guessedPlateID].Item2))
                 {

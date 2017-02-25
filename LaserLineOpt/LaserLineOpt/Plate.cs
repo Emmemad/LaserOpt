@@ -18,6 +18,7 @@ namespace LaserLineOpt
         public double FitnessValue
         {
             get { return 1.0 / CalcSumIdlingLine(); }
+            
         }
 
         public Plate()
@@ -66,18 +67,6 @@ namespace LaserLineOpt
         {
             return Segments.Count();
         }
-
-        public double CalcSumIdlingLine()
-        {
-            double length = 0;
-            int size = Segments.Count;
-
-            for(int i = 0; i < size - 1; i++)
-            {
-                length += CalcIdling(Segments[i], Segments[i + 1]);
-            }
-            return length;
-        }
 			
         public void ShuffleSegments()
         {
@@ -112,30 +101,17 @@ namespace LaserLineOpt
             }
         }
 
-        public void Mutate()
+        public double CalcSumIdlingLine()
         {
-            HardMutate();
-        }
+            double length = 0;
+            int size = Segments.Count;
 
-        public void HardMutate()
-        {
-            for(int i = 0; i < 10; i++)
+            for (int i = 0; i < size - 1; i++)
             {
-                WeakMutate();
+                length += CalcIdling(Segments[i], Segments[i + 1]);
             }
+            return length;
         }
-
-        public void WeakMutate()
-        {
-
-            int i = rng.Next(this.Size() - 1);
-
-            Segment tmp = new Segment(_Segments[i]);
-            this._Segments[i] = new Segment(this._Segments[i + 1]);
-            this._Segments[i + 1] = tmp;
-
-        }
-
 
         private double CalcIdling(Segment segment1, Segment segment2)
         {
