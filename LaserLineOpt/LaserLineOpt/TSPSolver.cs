@@ -16,8 +16,6 @@ namespace LaserLineOpt
 
         private static Random rng = new Random();
 
-		public bool logPlate = true;
-
         public void Solve()
         {
             if(TargetPlate == null)
@@ -30,26 +28,30 @@ namespace LaserLineOpt
                 throw new ArgumentException("Некорректный размер популяции");
             }
 
-            GenerateFirstPopulation();
+            GenerateFirstPopulation(); //Порождение первой популяции путём случайного перемешивания сегментов "идеальной" пластины
 
             for(int i = 0; i < NumberOfCycles; i++)
             {
-                PerformSelection();
-                Mutate();
-                Plate bestPlate = GetBestPlate();
+                PerformSelection(); // Отбор
+                Mutate();           // Мутация
+                
+                if ((i % 100) == 0) // Вывод информации на экран
+                {
+                    Plate bestPlate = GetBestPlate();
 
-                if ((i % 1000) == 0) { // Вынести в отдельный модуль вывод на экран
-					Console.WriteLine ("Iteration: " + i);
-
-					if (logPlate) {
-						Console.WriteLine ("Best plate is: \n" + bestPlate);
-					}
-                    Console.WriteLine("Best fitness is: " + bestPlate.FitnessValue);
-                    Console.WriteLine ("Best idling is: " + bestPlate.CalcSumIdlingLine());
-					Console.WriteLine();
+                    Console.WriteLine ("Iteration № " + i);
+                    WriteInfo(bestPlate);
 				}
 
             }
+        }
+
+        public void WriteInfo(Plate bestPlate)
+        {
+            Console.WriteLine("Best plate is: \n" + bestPlate);
+            Console.WriteLine("Best fitness is: " + bestPlate.FitnessValue);
+            Console.WriteLine("Best idling is: " + bestPlate.CalcSumIdlingLine());
+            Console.WriteLine();
         }
 
         public Plate GetBestPlate() // Возвращает особь с наибольшим значением fitness-функции

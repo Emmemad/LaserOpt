@@ -73,3 +73,8 @@ C:\Users\Бонч\GitProjects\LaserOpt\LaserLineOpt\LaserLineOpt\bin\Debug\Laser
 C:\Users\Бонч\GitProjects\LaserOpt\LaserLineOpt\LaserLineOpt\obj\Debug\LaserLineOpt.csprojResolveAssemblyReference.cache
 C:\Users\Бонч\GitProjects\LaserOpt\LaserLineOpt\LaserLineOpt\obj\Debug\LaserLineOpt.dll
 C:\Users\Бонч\GitProjects\LaserOpt\LaserLineOpt\LaserLineOpt\obj\Debug\LaserLineOpt.pdb
+C:\Users\Emmemad\Documents\GitHub\LaserOpt\LaserLineOpt\LaserLineOpt\bin\Debug\LaserLineOpt.dll
+C:\Users\Emmemad\Documents\GitHub\LaserOpt\LaserLineOpt\LaserLineOpt\bin\Debug\LaserLineOpt.pdb
+C:\Users\Emmemad\Documents\GitHub\LaserOpt\LaserLineOpt\LaserLineOpt\obj\Debug\LaserLineOpt.csprojResolveAssemblyReference.cache
+C:\Users\Emmemad\Documents\GitHub\LaserOpt\LaserLineOpt\LaserLineOpt\obj\Debug\LaserLineOpt.dll
+C:\Users\Emmemad\Documents\GitHub\LaserOpt\LaserLineOpt\LaserLineOpt\obj\Debug\LaserLineOpt.pdb

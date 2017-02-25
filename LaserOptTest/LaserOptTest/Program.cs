@@ -32,7 +32,6 @@ namespace LaserOptTest
 			 * sizeOfPopulation * NumberOfCycles * NumberOfTestPlates
 			 */
 
-			tspSolver.logPlate = true;
             tspSolver.Solve();
 
             Plate bestPlate = tspSolver.GetBestPlate();
