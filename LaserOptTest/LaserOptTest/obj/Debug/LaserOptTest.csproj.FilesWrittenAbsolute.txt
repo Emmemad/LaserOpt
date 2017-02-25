@@ -1,9 +1,0 @@
-/home/missingdays/proj/LaserOpt/LaserOptTest/LaserOptTest/obj/Debug/.NETFramework,Version=v4.5.2.AssemblyAttribute.cs
-/home/missingdays/proj/LaserOpt/LaserOptTest/LaserOptTest/obj/Debug/LaserOptTest.exe
-/home/missingdays/proj/LaserOpt/LaserOptTest/LaserOptTest/bin/Debug/LaserLineOpt.dll
-/home/missingdays/proj/LaserOpt/LaserOptTest/LaserOptTest/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
-/home/missingdays/proj/LaserOpt/LaserOptTest/LaserOptTest/bin/Debug/LaserOptTest.exe.config
-/home/missingdays/proj/LaserOpt/LaserOptTest/LaserOptTest/bin/Debug/LaserOptTest.exe.mdb
-/home/missingdays/proj/LaserOpt/LaserOptTest/LaserOptTest/bin/Debug/LaserOptTest.exe
-/home/missingdays/proj/LaserOpt/LaserOptTest/LaserOptTest/obj/Debug/LaserOptTest.exe.mdb
-/home/missingdays/proj/LaserOpt/LaserOptTest/LaserOptTest/bin/Debug/LaserLineOpt.dll.mdb

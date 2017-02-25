@@ -1,5 +1,0 @@
-/home/missingdays/proj/LaserOpt/LaserLineOpt/LaserLineOpt/obj/Release/.NETFramework,Version=v4.5.1.AssemblyAttribute.cs
-/home/missingdays/proj/LaserOpt/LaserLineOpt/LaserLineOpt/bin/Release/LaserLineOpt.dll.mdb
-/home/missingdays/proj/LaserOpt/LaserLineOpt/LaserLineOpt/bin/Release/LaserLineOpt.dll
-/home/missingdays/proj/LaserOpt/LaserLineOpt/LaserLineOpt/obj/Release/LaserLineOpt.dll
-/home/missingdays/proj/LaserOpt/LaserLineOpt/LaserLineOpt/obj/Release/LaserLineOpt.dll.mdb
