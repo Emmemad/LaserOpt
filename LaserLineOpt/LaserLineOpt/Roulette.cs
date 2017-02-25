@@ -82,6 +82,7 @@ namespace LaserLineOpt
                     }
                 }
             }
+
             /*
             double chosenFitness = fitnessSum * rng.NextDouble();
             int guessedPlateID = (int)(chosenFitness / fitnessAverage);
@@ -114,6 +115,7 @@ namespace LaserLineOpt
                 }
             }
             */
+
             return selectedPlates;
         }
 
