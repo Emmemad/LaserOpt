@@ -42,7 +42,8 @@ namespace LaserLineOpt
             if (Direction)
             {
                 return "[" + X1 + ", " + Y1 + ";" + X2 + ", " + Y2 + "]";
-            } else
+            }
+            else
             {
                 return "[" + X2 + ", " + Y2 + ";" + X1 + ", " + Y1 + "]";
             }

@@ -40,7 +40,7 @@ namespace LaserLineOpt
                 fitnessSum += plates[i].FitnessValue;
             }
             fitnessAverage = fitnessSum / plates.Count;
-            
+
         }
 
         public List<Plate> GetPlates(int num = 1)

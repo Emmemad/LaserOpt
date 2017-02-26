@@ -5,7 +5,7 @@ using System.Linq;
 namespace LaserLineOpt
 {
     public class TSPSolver
-    {    
+    {
         public double PlatesToRemove = 0.7;
         public int sizeOfPopulation = 0;
         public int NumberOfCycles = 1;
@@ -16,32 +16,33 @@ namespace LaserLineOpt
 
         private static Random rng = new Random();
 
+        /* ///Основной метод/// */
         public void Solve()
         {
-            if(TargetPlate == null)
+            if (TargetPlate == null)
             {
                 throw new ArgumentException("Отсутствует целевая пластина (TargetPlate)");
             }
 
-            if(sizeOfPopulation == 0)
+            if (sizeOfPopulation == 0)
             {
                 throw new ArgumentException("Некорректный размер популяции");
             }
 
             GenerateFirstPopulation(); //Порождение первой популяции путём случайного перемешивания сегментов "идеальной" пластины
 
-            for(int i = 0; i < NumberOfCycles; i++)
+            for (int i = 0; i < NumberOfCycles; i++)
             {
                 PerformSelection(); // Отбор
                 Mutate();           // Мутация
-                
+
                 if ((i % 100) == 0) // Вывод информации на экран
                 {
                     Plate bestPlate = GetBestPlate();
 
-                    Console.WriteLine ("Iteration № " + i);
+                    Console.WriteLine("Iteration № " + i);
                     WriteInfo(bestPlate);
-				}
+                }
 
             }
         }
@@ -76,7 +77,7 @@ namespace LaserLineOpt
 
         public void GenerateFirstPopulation() // Создание новых особей путём перемешивания сегментов и их направлений
         {
-            for(int i = 0; i < sizeOfPopulation; i++)
+            for (int i = 0; i < sizeOfPopulation; i++)
             {
                 Plate newPlate = new Plate(TargetPlate);
                 newPlate.ShuffleSegments();
@@ -85,13 +86,12 @@ namespace LaserLineOpt
             }
         }
 
-        void PerformSelection()
+        void PerformSelection() // Отбор
         {
             RouletteSelection();
 
             //SortPlatesByFitness();  // Отбор усечением: сортировка
             //LeaveBestOfPlates();    // Отбор усечением: усечение популяции
-
             //ProduceNewPlates();     // Отбор усечением: производство потомков для заполнения популяции
         }
 
@@ -100,7 +100,7 @@ namespace LaserLineOpt
             for (int i = 0; i < Plates.Count; i++)
             {
                 Mutator.ReverseSegmentMutation(Plates[i], MutationProbability);
-            }  
+            }
         }
 
 
@@ -139,7 +139,7 @@ namespace LaserLineOpt
         void ProduceNewPlates()
         {
             List<Plate> NewPopulation = new List<Plate>();
-            NewPopulation.AddRange(Plates);  
+            NewPopulation.AddRange(Plates);
 
             while (NewPopulation.Count < sizeOfPopulation)
             {
@@ -153,7 +153,7 @@ namespace LaserLineOpt
                     double f1 = Fitness(children[0]);
                     double f2 = Fitness(children[1]);
 
-                    if(f1 > f2)
+                    if (f1 > f2)
                     {
                         NewPopulation.Add(children[0]);
                     }
@@ -162,7 +162,8 @@ namespace LaserLineOpt
                         NewPopulation.Add(children[1]);
                     }
                 }
-                else {
+                else
+                {
                     NewPopulation.AddRange(children);
                 }
             }
@@ -179,18 +180,18 @@ namespace LaserLineOpt
             List<Plate> currentPair;
             Roulette roulette = new Roulette(Plates);
 
-            for (int i = 0; i < Plates.Count / 4 ; i++) //Берём Plates.Count/2 пар особей, каждая пара порождает по 2 потомка
+            for (int i = 0; i < Plates.Count / 4; i++) // Plates.Count/2 пар особей, каждая пара порождает по 2 потомка
             {
                 currentPair = roulette.GetPlates(2);
-                selectedPlates.AddRange( currentPair );
-                selectedPlates.AddRange( Crossover(currentPair) );
+                selectedPlates.AddRange(currentPair); // Добавление выбранных рулеткой особей в следующее поколение (2 особи)
+                selectedPlates.AddRange(Crossover(currentPair));  // Добавление их "детей" (2 особи)
             }
 
-            if (Plates.Count % 2 != 0) //Если в популяции нечётное число особей
+            if (Plates.Count % 4 != 0) // Если в популяции не делящееся на 4 число особей, добавляем ту, у которой больше значение фитнесс-функции
             {
                 List<Plate> tempList = roulette.GetPlates(2);
                 Plate lastPlate = (Fitness(tempList[0]) > Fitness(tempList[1])) ? tempList[0] : tempList[1];
-                selectedPlates.Add(lastPlate); 
+                selectedPlates.Add(lastPlate);
             }
 
             Plates.Clear();

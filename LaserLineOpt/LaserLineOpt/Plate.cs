@@ -18,7 +18,7 @@ namespace LaserLineOpt
         public double FitnessValue
         {
             get { return 1.0 / CalcSumIdlingLine(); }
-            
+
         }
 
         public Plate()
@@ -49,7 +49,7 @@ namespace LaserLineOpt
         {
             String str = "";
 
-            for(int i = 0; i < _Segments.Count; i++)
+            for (int i = 0; i < _Segments.Count; i++)
             {
                 str += _Segments[i].ToString();
                 str += "\n";
@@ -67,24 +67,25 @@ namespace LaserLineOpt
         {
             return Segments.Count();
         }
-			
+
         public void ShuffleSegments()
         {
-			FisherYatesShuffle();
+            FisherYatesShuffle();
         }
 
-		private void FisherYatesShuffle(){
-			int n = Segments.Count;
+        private void FisherYatesShuffle()
+        {
+            int n = Segments.Count;
 
-			while (n > 1)
-			{
-				n--;
-				int k = rng.Next(n + 1);
-				Segment value = new Segment(Segments[k]);
-				Segments[k] = new Segment(Segments[n]);
-				Segments[n] = value;;
-			}
-		}
+            while (n > 1)
+            {
+                n--;
+                int k = rng.Next(n + 1);
+                Segment value = new Segment(Segments[k]);
+                Segments[k] = new Segment(Segments[n]);
+                Segments[n] = value; ;
+            }
+        }
 
         public void SetRandomDirectionsToSegments()
         {
@@ -93,9 +94,12 @@ namespace LaserLineOpt
             {
                 int n = rng.Next(2);
 
-                if(n == 1) {
+                if (n == 1)
+                {
                     segment.Direction = true;
-                } else { 
+                }
+                else
+                {
                     segment.Direction = false;
                 }
             }
@@ -115,11 +119,11 @@ namespace LaserLineOpt
 
         private double CalcIdling(Segment segment1, Segment segment2)
         {
-            if(segment1.Direction && segment2.Direction)        //True и True
+            if (segment1.Direction && segment2.Direction)        //True и True
             {
                 return CalcIdlingLine(segment1.X2, segment1.Y2, segment2.X1, segment2.Y1);
             }
-            else if(!segment1.Direction && segment2.Direction)  //False и True
+            else if (!segment1.Direction && segment2.Direction)  //False и True
             {
                 return CalcIdlingLine(segment1.X1, segment1.Y1, segment2.X1, segment2.Y1);
             }

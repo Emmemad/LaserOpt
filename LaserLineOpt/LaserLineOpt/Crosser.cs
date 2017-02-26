@@ -15,7 +15,7 @@ namespace LaserLineOpt
 
             List<Segment> child = new List<Segment>();
 
-            for(int i = 0; i < plate1.Size(); i++)
+            for (int i = 0; i < plate1.Size(); i++)
             {
                 child.Add(null);
             }
@@ -55,7 +55,7 @@ namespace LaserLineOpt
         }
 
 
-        public static Plate CyclicCrossover (Plate plate1, Plate plate2)
+        public static Plate CyclicCrossover(Plate plate1, Plate plate2)
         {
 
             int size = plate1.Size();
@@ -73,7 +73,8 @@ namespace LaserLineOpt
             {
                 seenIndexes.Add(currentIndex);
                 int IDToFind = plate2.Segments[currentIndex].ID;
-                currentIndex = plate1.Segments.FindIndex(a => {
+                currentIndex = plate1.Segments.FindIndex(a =>
+                {
                     return a.ID == IDToFind;
                 });
             }

@@ -12,9 +12,9 @@ namespace LaserLineOpt
 
         static void InsertRange(List<Segment> original, List<Segment> ToAdd, int position)
         {
-            for (int i = position; i < position+ToAdd.Count; i++)
+            for (int i = position; i < position + ToAdd.Count; i++)
             {
-                original[i] = ToAdd[i-position];
+                original[i] = ToAdd[i - position];
                 original[i].ReverseDirection();
             }
 
@@ -28,11 +28,13 @@ namespace LaserLineOpt
                 Range = segments.GetRange(start - length, length);
                 start -= length;
 
-            }else if (start - length < 0)
+            }
+            else if (start - length < 0)
             {
                 Range = segments.GetRange(start, length);
 
-            }else if (rng.NextDouble() < 0.5)
+            }
+            else if (rng.NextDouble() < 0.5)
             {
                 Range = segments.GetRange(start - length, length);
                 start -= length;
@@ -45,8 +47,17 @@ namespace LaserLineOpt
 
             Range.Reverse();
             InsertRange(segments, Range, start);
+        }
 
-            
+        public static void FlipRandomSegments(Plate plate, double mutationProbability)
+        {
+            foreach (Segment segment in plate.Segments)
+            {
+                if (rng.NextDouble() < mutationProbability)
+                {
+                    segment.ReverseDirection();
+                }
+            }
         }
 
         public static void ReverseSegmentMutation(Plate plate, double mutationProbability)
@@ -55,7 +66,7 @@ namespace LaserLineOpt
             FlipRandomSegments(plate, mutationProbability);
 
             double max_part_len = 0.2;
-            int max_part_elems = (int) (plate.Segments.Count * max_part_len);
+            int max_part_elems = (int)(plate.Segments.Count * max_part_len);
             int part_elems;
 
             for (int i = 0; i < plate.Segments.Count; i++)
@@ -67,21 +78,9 @@ namespace LaserLineOpt
                     if (part_elems < 2) part_elems = 2;
 
                     ReverseRange(plate.Segments, i, part_elems);
-                }  
-            }
-
-        }
-
-        public static void FlipRandomSegments(Plate plate, double mutationProbability)
-        {
-            foreach(Segment segment in plate.Segments)
-            {
-                if(rng.NextDouble() < mutationProbability)
-                {
-                    segment.ReverseDirection();
                 }
             }
-        }
 
+        }
     }
 }
