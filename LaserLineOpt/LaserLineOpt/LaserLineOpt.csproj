@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Crosser.cs" />
+    <Compile Include="GenManager.cs" />
     <Compile Include="Mutator.cs" />
     <Compile Include="Roulette.cs" />
     <Compile Include="TSPSolver.cs" />
