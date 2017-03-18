@@ -15,6 +15,7 @@ namespace LaserLineOpt
         List<Plate> Plates = new List<Plate>();     // Текущая популяция 
 
         private static Random rng = new Random();
+        private GenManager genManager;
 
         /* ///Основной метод/// */
         public void Solve()
@@ -77,13 +78,15 @@ namespace LaserLineOpt
 
         public void GenerateFirstPopulation() // Создание новых особей путём перемешивания сегментов и их направлений
         {
+            List<Plate> firstPopulation = new List<Plate>();
             for (int i = 0; i < sizeOfPopulation; i++)
             {
                 Plate newPlate = new Plate(TargetPlate);
                 newPlate.ShuffleSegments();
                 newPlate.SetRandomDirectionsToSegments();
-                Plates.Add(newPlate);
+                firstPopulation.Add(newPlate);
             }
+            genManager = new GenManager(firstPopulation);
         }
 
         void PerformSelection() // Отбор
@@ -178,7 +181,7 @@ namespace LaserLineOpt
         {
             List<Plate> selectedPlates = new List<Plate>();
             List<Plate> currentPair;
-            Roulette roulette = new Roulette(Plates);
+            Roulette roulette = new Roulette(genManager);
 
             for (int i = 0; i < Plates.Count / 4; i++) // Plates.Count/2 пар особей, каждая пара порождает по 2 потомка
             {

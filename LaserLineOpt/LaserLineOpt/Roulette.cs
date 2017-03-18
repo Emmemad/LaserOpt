@@ -11,13 +11,13 @@ namespace LaserLineOpt
         double fitnessSum;
         double fitnessAverage;
         static Random rng = new Random();
+        GenManager genManager;
         List<Plate> plates;
         List<Tuple<double, double>> platesCoords = new List<Tuple<double, double>>();
 
-        public Roulette(List<Plate> InPlates)
+        public Roulette(GenManager genManager)
         {
-            plates = InPlates;
-
+            this.genManager = genManager;
             /*
             fitnessSum = plates[0].FitnessValue;
             plates[0].Start = 0;
@@ -32,14 +32,14 @@ namespace LaserLineOpt
             fitnessAverage = fitnessSum / plates.Count;
             */
 
-            fitnessSum = plates[0].FitnessValue;
-            platesCoords.Add(Tuple.Create(0.0, plates[0].FitnessValue));
-            for (int i = 1; i < plates.Count; i++)
+            fitnessSum = genManager.GetCurrentPlate(0).FitnessValue;
+            platesCoords.Add(Tuple.Create(0.0, genManager.GetCurrentPlate(0).FitnessValue));
+            for (int i = 1; i < genManager.CurrentPopulationCount; i++)
             {
-                platesCoords.Add(Tuple.Create(platesCoords[i - 1].Item2, platesCoords[i - 1].Item2 + plates[i].FitnessValue));
-                fitnessSum += plates[i].FitnessValue;
+                platesCoords.Add(Tuple.Create(platesCoords[i - 1].Item2, platesCoords[i - 1].Item2 + genManager.GetCurrentPlate(i).FitnessValue));
+                fitnessSum += genManager.GetCurrentPlate(i).FitnessValue;
             }
-            fitnessAverage = fitnessSum / plates.Count;
+            fitnessAverage = fitnessSum / genManager.CurrentPopulationCount;
 
         }
 
@@ -57,7 +57,7 @@ namespace LaserLineOpt
 
                 if ((chosenFitness >= platesCoords[guessedPlateID].Item1) && (chosenFitness <= platesCoords[guessedPlateID].Item2))
                 {
-                    selectedPlates.Add(plates[guessedPlateID]);
+                    selectedPlates.Add(genManager.GetCurrentPlate(guessedPlateID));
                 }
                 else if (chosenFitness < platesCoords[guessedPlateID].Item1)
                 {
@@ -65,7 +65,7 @@ namespace LaserLineOpt
                     {
                         if ((chosenFitness >= platesCoords[k].Item1) && (chosenFitness <= platesCoords[k].Item2))
                         {
-                            selectedPlates.Add(plates[k]);
+                            selectedPlates.Add(genManager.GetCurrentPlate(k));
                             break;
                         }
 
@@ -73,11 +73,11 @@ namespace LaserLineOpt
                 }
                 else if (chosenFitness > platesCoords[guessedPlateID].Item2)
                 {
-                    for (int k = guessedPlateID + 1; k < plates.Count; k++)
+                    for (int k = guessedPlateID + 1; k < genManager.CurrentPopulationCount; k++)
                     {
                         if ((chosenFitness >= platesCoords[k].Item1) && (chosenFitness <= platesCoords[k].Item2))
                         {
-                            selectedPlates.Add(plates[k]);
+                            selectedPlates.Add(genManager.GetCurrentPlate(k));
                             break;
                         }
                     }
